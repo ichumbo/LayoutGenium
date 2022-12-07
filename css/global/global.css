@@ -18,7 +18,7 @@ body {
     height: 100vh;
     font-family: poppins, sans-serif;
     font-size: 0.88rem;
-    background: var(--cor-background);
+    background: var(--color-background);
     user-select: none;
     overflow: hidden;
 }
@@ -46,4 +46,12 @@ h5 {
 
 small {
     font-size: 0.75rem;
+}
+
+p {
+    color: var(--cor-dark-variant);
+}
+
+b {
+    color: var(--cor-dark);
 }
