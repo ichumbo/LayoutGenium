@@ -12,7 +12,6 @@ aside {
 }
 
 aside .top {
-    background: var(--color-white);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,7 +34,6 @@ aside .close {
 /*============================================================SIDEBAR======================================================================*/
 
 aside .sidebar {
-    background-color: var(--color-white);
     display: flex;
     flex-direction: column;
     height: 86vh;

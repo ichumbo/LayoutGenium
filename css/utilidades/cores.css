@@ -9,6 +9,7 @@
     --color-info-light: #dce1eb;
     --color-dark: #363949;
     --color-light: rgba(37, 197, 250, 0.18);
+    --color-light-2: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
     --color-background: #f6f6f9;
@@ -21,7 +22,7 @@
     --card-padding: 1.8rem;
     --padding-1: 1.2rem;
 
-    --box-shadow: 0 2rem 3rem var(--color-light);
+    --box-shadow: 0 2rem 3rem var(--color-light-2);
 }
 
 .color-1 {
