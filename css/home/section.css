@@ -8,3 +8,11 @@
     gap: 2rem;
     background: gray;
 }
+
+.right .top button {
+    display: none;
+}
+
+.right .theme-toggler {
+    background: var(--color-light);
+}
