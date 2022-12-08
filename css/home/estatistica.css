@@ -1,13 +1,13 @@
-.right .sales-analytics {
+.right .statistics {
     margin-top: 2rem;
 }
 
-.right .sales-analytics h2 {
+.right .statistics h2 {
     margin-top: 3.8rem;
     margin-bottom: 0.8rem;
 }
 
-.right .sales-analytics .item {
+.right .statistics .item {
     background: var(--color-white);
     display: flex;
     align-items: center;
@@ -19,11 +19,11 @@
     transition: all 300ms ease;
 }
 
-.right .sales-analytics .item:hover {
+.right .statistics .item:hover {
     box-shadow: none;
 }
 
-.right .sales-analytics .item .right {
+.right .statistics .item .right {
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -31,7 +31,7 @@
     width: 100%;
 }
 
-.right .sales-analytics .item .icon {
+.right .statistics .item .icon {
     background: var(--color-primary);
     padding: 0.6rem;
     color: var(--color-white);
@@ -39,7 +39,7 @@
     display: flex;
 }
 
-.right .sales-analytics .add-product {
+.right .statistics .add-statistic {
     background-color: transparent;
     border: 2px dashed var(--color-primary);
     color: var(--color-primary);
@@ -49,12 +49,16 @@
     cursor: pointer;
 }
 
-.right .sales-analytics .add-product div {
+.right .statistics .add-statistic div {
     display: flex;
     align-items: center;
     gap: 0.6rem;
 }
 
-.right .sales-analytics .add-product div h3 {
+.right .statistics .add-statistic div h3 {
     font-weight: 500;
+}
+
+.right .statistics button {
+    margin-top: .5rem;
 }

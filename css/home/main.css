@@ -22,6 +22,39 @@ main .insights {
     margin-top: 3rem;
 }
 
+main .insights a {
+    display: flex;
+    font-size: 13px;
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0 1rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+}
+
+main .insights a:hover {
+    color: var(--color-primary);
+    transition: all 300ms ease;
+}
+
+main .insights a:last-child {
+    border: solid 1px var(--color-secundary);
+    border-radius: 10px;
+    padding: .3rem 1rem;
+    color: var(--color-secundary);
+    cursor: pointer;
+}
+
+main .insights a:last-child:hover {
+    background: var(--color-secundary);
+    border: solid 1px var(--color-secundary);
+    color: var(--color-white);
+    transition: all 400ms ease;
+}
+
 main .insights > div {
     background: var(--color-white);
     padding: var(--card-padding);

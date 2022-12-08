@@ -22,6 +22,7 @@
 
 .right .top button {
     display: none;
+    border: none;
 }
 
 .right .theme-toggler {
