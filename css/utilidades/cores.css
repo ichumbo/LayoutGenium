@@ -1,9 +1,7 @@
-/*Cores------------------------------------------------------------------------------------------------------------------------------------*/
+/*Cores-MODELIGHT-----------------------------------------------------------------------------------------------------------------*/
 :root {
     --color-primary: #004aad;
-    --color-danger: #ff7782;
-    --color-success: #3AADED;
-    --color-warning: #ffbb55;
+    --color-secundary: #3AADED;
     --color-white: #ffffff;
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
@@ -13,6 +11,7 @@
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
     --color-background: #f6f6f9;
+    --color-text: #000000;
 
     --card-border-radius: 2rem;
     --border-radius-1: 0.4rem;
@@ -30,15 +29,23 @@
 }
 
 .color-2 {
-    color: var(--color-danger);
+    color: var(--color-secundary);
 }
 
 .color-3 {
     color: var(--color-success);
 }
 
-.color-4 {
-    color: var(--cor-warning);
+/*Cores-MODELIGHT-----------------------------------------------------------------------------------------------------------------*/
+.dark-theme-variables {
+    --color-primary: #004aad;
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light-2: rgba(0, 0, 0, 0.4);
+    --color-text: #edeffd;
+    --box-shadow: 0 2rem 3rem var(--color-light-2);
 }
 
 
