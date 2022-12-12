@@ -29,13 +29,16 @@ main .left > div {
     gap: 5rem;
 }
 
-
-main .left p {
-    text-align: end;
-}
-
 main .left b {
     font-size: 13px;
+}
+
+/*posicionamento dos botões das páginas*/
+
+main .left .informative {
+    position: relative;
+    left: 4.5rem;
+    top: 2.5rem;
 }
 
 main .left .registration {  
@@ -47,6 +50,14 @@ main .left .student-system {
     position: relative;
     left: 7.3rem;
 }
+
+main .left .student {
+    position: relative;
+    left: 7.5rem;
+    top: 1.2rem;
+}
+
+/*final do posicionamento dos botões das páginas*/
 
 main .left input {
     display: flex;

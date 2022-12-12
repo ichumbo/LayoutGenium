@@ -24,7 +24,7 @@
                 </div>
             </div>
             <nav class="sidebar">
-                <a href="./index.html" class="active">
+                <a href="./index.html">
                     <span class="material-symbols-sharp">dashboard</span>
                     <h3>Inicío</h3>
                 </a>
@@ -40,7 +40,7 @@
                     <span class="material-symbols-sharp">display_settings</span>
                     <h3>Informativos</h3>
                 </a>
-                <a href="./alunos.html">
+                <a href="./alunos.html" class="active">
                     <span class="material-symbols-sharp">badge</span>
                     <h3>Alunos</h3>
                 </a>
@@ -77,40 +77,64 @@
 
         <main>
 
-            <h1>Inicío</h1>
-
-            <!--
-            <div class="date">
-                <input type="date">
-            </div>
-            -->
+            <h1>Alunos</h1>
 
             <div class="insights">
 
                 <div class="sales">
-                    <span class="material-symbols-sharp">other_houses</span>
+                    <span class="material-symbols-sharp">badge</span>
                     <div class="middle">
                         <div class="left">
-                            <h4>Seja Bem Vindo!</h4>
-                            <h2>Bem-vindo ao Sistema de Gestão. Utilize o menu acima para começar.</h2>
-                            <p><b>Administrador:</b> PHOCO<br>
-                                <b>Data:</b> 07/12/2022<br>
-                                <b>Acessos:</b> 2891 <br></p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="sales">
-                    <span class="material-symbols-sharp">settings</span>
-                    <div class="middle">
-                        <div class="left">
-                            <a>Acessar a configuração obrigatória do navegador para impressão dos boletos</a>
-                            
-                            <a>Carregar dados de alunos sem responsável legal, sem financeiro e sem turmas</a>
+                            <h2>Listar Alunos</h2>
+                            <br>
+                            <div class="grid">
+                                <div>
+                                    <b class="name-color">Unidade:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione a Unidade</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                    <br>
+                                    <b class="name-color">Modalidade:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione a Unidade</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <b class="name-color">Curso:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione a Modalidade</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                    <br>
+                                    <b class="name-color">Turno:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione o Turno</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <b class="name-color">Turma:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione a Turma</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                    <br>
+                                    <button class="student">OK</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
 
         </main>
@@ -134,27 +158,6 @@
                     </div>
                 </div>
             </div>
-
-            <article class="statistics">
-                <h2>Estatística</h2>
-                <div class="item online">
-                    <div class="icon">
-                        <span class="material-symbols-sharp">developer_board</span>
-                    </div>
-                    <div class="right">
-                        <div class="info">
-                            <button>Carregar dados da unidade</button>
-                            <button>Estatística Completa</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item add-statistic">
-                    <div>
-                        <span class="material-symbols-sharp">add</span>
-                        <h3>Adicionar Estatística</h3>
-                    </div>
-                </div>
-            </article>
 
         </section>
     </div>

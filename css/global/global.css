@@ -62,6 +62,22 @@ b {
     color: var(--color-dark);
 }
 
+.t-end {
+    text-align: end;
+} 
+
+.t-start {
+    text-align: start;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
 button {
     background: var(--color-primary);
     border-radius: 10px;
