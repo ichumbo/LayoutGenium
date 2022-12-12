@@ -29,13 +29,23 @@ main .left > div {
     gap: 5rem;
 }
 
+
 main .left p {
     text-align: end;
 }
 
-main .left button {
+main .left b {
+    font-size: 13px;
+}
+
+main .left .registration {  
     position: relative;
-    left: 3.8rem;
+    left: 4.5rem;
+}
+
+main .left .student-system {
+    position: relative;
+    left: 7.3rem;
 }
 
 main .left input {
@@ -46,7 +56,8 @@ main .left input {
     border: .1rem solid var(--color-primary);
     font-size: 13px;
     color: var(--color-primary);
-    width: 250px;
+    width: 260px;
+    margin-top: .5rem;
     border-radius: 7px;
 }
 
@@ -62,7 +73,8 @@ main .left select {
     border: .1rem solid var(--color-primary);
     font-size: 13px;
     color: var(--color-primary);
-    width: 250px;
+    width: 260px;
+    margin-top: .5rem;
     border-radius: 7px;
 }
 

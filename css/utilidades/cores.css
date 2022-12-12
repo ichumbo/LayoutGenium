@@ -2,6 +2,8 @@
 :root {
     --color-primary: #004aad;
     --color-secundary: #3AADED;
+    --color-released: #38E54D;
+    --color-refused: #DC3535;
     --color-white: #ffffff;
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
@@ -31,6 +33,14 @@
 
 .color-2 {
     color: var(--color-secundary);
+}
+
+.color-3 {
+    color: var(--color-released);
+}
+
+.color-4 {
+    color: var(--color-refused);
 }
 
 
