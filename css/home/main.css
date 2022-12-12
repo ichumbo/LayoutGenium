@@ -33,6 +33,16 @@ main .left b {
     font-size: 13px;
 }
 
+main .left h4 {
+    margin: 10px 0 0 0;
+    text-align: center;
+    background: linear-gradient(#3AADED, #004aad);
+    border-radius: 7px;
+    color: #fff;
+    font-size: 1rem;
+    padding: .4rem 1rem;
+}
+
 /*posicionamento dos botões das páginas*/
 
 main .left .informative {
@@ -55,6 +65,11 @@ main .left .student {
     position: relative;
     left: 7.5rem;
     top: 1.2rem;
+}
+
+main .left .renovation {
+    position: relative;
+    left: 7.5rem;
 }
 
 /*final do posicionamento dos botões das páginas*/
