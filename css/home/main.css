@@ -29,10 +29,19 @@ main .left > div {
     gap: 5rem;
 }
 
+main .left p {
+    text-align: end;
+}
+
+main .left button {
+    position: relative;
+    left: 3.8rem;
+}
+
 main .left input {
     display: flex;
     flex-direction: column;
-    background: var(--color-background);
+    background: var(--color-background-input);
     padding: 0.2rem 1.6rem;
     border: .1rem solid var(--color-primary);
     font-size: 13px;
@@ -48,7 +57,7 @@ main .left input::placeholder {
 main .left select {
     display: flex;
     flex-direction: column;
-    background: var(--color-background);
+    background: var(--color-background-input);
     padding: 0.2rem 1.6rem;
     border: .1rem solid var(--color-primary);
     font-size: 13px;

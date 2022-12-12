@@ -21,7 +21,6 @@
 @media screen and (max-width: 1200px) {
 
     body {
-        overflow: scroll;
         width: 100%;
     }
 
@@ -37,19 +36,21 @@
 
     main .left > div {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.1rem;
-        position: relative;
-        left: 6rem;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        gap: 4rem;
     }
 
     main .left > div p{
-        text-align: center;
+        text-align: end;
+        position: relative;
+        left: 30rem;
+        bottom: 8rem;
     }
 
     main .left > div button{
         position: relative;
-        left: 1.8rem;
+        left: 30rem;
+        bottom: 6rem;
     }
 
     aside .logo h2 {
@@ -116,6 +117,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    body {
+        overflow: scroll;
+        width: 100%;
+    }
+    
     .container {
         width: 100%;
         grid-template-columns: 1fr;
@@ -181,6 +188,23 @@
     main .recent-orders table {
         width: 100%;
         margin: 0;
+    }
+
+    main .left > div {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.1rem;
+        position: relative;
+        left: 6rem;
+    }
+
+    main .left > div p{
+        text-align: center;
+    }
+
+    main .left > div button{
+        position: relative;
+        left: 1.8rem;
     }
 
     .right {
