@@ -2,7 +2,7 @@
 
             <h1>Inicío</h1>
 
-            <div class="insights">
+            <div class="quite">
 
                 <div class="sales">
                     <span class="material-symbols-sharp">other_houses</span>

@@ -27,7 +27,7 @@ main .left {
 main .left > div {
     display: flex;
     justify-content: space-between;
-    gap: 5rem;
+    gap: 4rem;
 }
 
 main .left b {
@@ -48,13 +48,13 @@ main .left h4 {
 
 main .left .informative {
     position: relative;
-    left: 4.5rem;
-    top: 2.5rem;
+    left: 3rem;
+    top: .8rem;
 }
 
 main .left .registration {  
     position: relative;
-    left: 4.5rem;
+    left: 6rem;
 }
 
 main .left .student-system {
@@ -84,7 +84,6 @@ main .left input {
     font-size: 13px;
     color: var(--color-primary);
     width: 260px;
-    margin-top: .5rem;
     border-radius: 7px;
 }
 
@@ -101,11 +100,10 @@ main .left select {
     font-size: 13px;
     color: var(--color-primary);
     width: 260px;
-    margin-top: .5rem;
     border-radius: 7px;
 }
 
-main .insights {
+main .quite {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.6rem;
@@ -113,7 +111,7 @@ main .insights {
     width: 100%;
 }
 
-main .insights a {
+main .quite a {
     display: flex;
     margin-left: 7rem;
     margin-bottom: 1rem;
@@ -125,12 +123,12 @@ main .insights a {
     text-align: center;
 }
 
-main .insights a:hover {
+main .quite a:hover {
     color: var(--color-primary);
     transition: all 300ms ease;
 }
 
-main .insights a:last-child {
+main .quite a:last-child {
     border: solid 1px var(--color-secundary);
     border-radius: 10px;
     padding: .3rem 1rem;
@@ -138,14 +136,14 @@ main .insights a:last-child {
     cursor: pointer;
 }
 
-main .insights a:last-child:hover {
+main .quite a:last-child:hover {
     background: var(--color-secundary);
     border: solid 1px var(--color-secundary);
     color: var(--color-white);
     transition: all 400ms ease;
 }
 
-main .insights > div {
+main .quite > div {
     background: var(--color-white);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
@@ -154,11 +152,11 @@ main .insights > div {
     transition: all 300ms ease;
 }
 
-main .insights > div:hover {
+main .quite > div:hover {
     box-shadow: none;
 }
 
-main .insights > div span {
+main .quite > div span {
     background: var(--color-primary);
     padding: 0.5rem;
     border-radius: 50%;
@@ -166,13 +164,13 @@ main .insights > div span {
     font-size: 2rem;
 }
 
-main .insights > div .middle {
+main .quite > div .middle {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-main .insights h4 {
+main .quite h4 {
     margin: 1rem 0 0.6rem;
     font-size: 1rem;
 }

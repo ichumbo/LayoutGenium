@@ -44,17 +44,26 @@ aside .close {
 
 /*============================================================SIDEBAR======================================================================*/
 
-nav ul ul {
-    position: absolute;
-    left: 13rem;
-    width: 15.3rem;
-    bottom: 5rem;
-    /*display: none;*/
-    background: var(--color-background-input);
-    border-radius: var(--border-radius-3); 
-    box-shadow: 0 1rem 1rem var(--color-light-2);
-    border: solid 0.1rem var(--color-secundary);
+nav ul li .sub-menu {
+    padding: 6px 6px 8px 8px;
+    margin-top: -10px;
+    background: var(--color-light);
+    border-radius: 0.7rem;
 }
+
+nav.close ul li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+    padding: 10px 20px;
+}
+
+nav ul li .sub-menu a {
+    padding: 5px 0;
+    white-space: nowrap;
+}
+
 
 header .sidebar {
     display: flex;
@@ -95,6 +104,7 @@ aside .sidebar a.active {
     background: var(--color-light);
     color: var(--color-primary);
     margin-left: 0;
+    border-radius: 0.7rem;
 }
 
 aside .sidebar a.active::before {

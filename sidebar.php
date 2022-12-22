@@ -6,45 +6,45 @@
                 </div>
             </div>
             
-            <nav class="sidebar">
+            <nav class="sidebar close">
                 <ul>
                     <li>
-                        <a href="./index.html" class="active">
+                        <a href="./index.php" class="active">
                         <span class="material-symbols-sharp">dashboard</span>
                         <h3>Inicío</h3>
                         </a>
                     </li>   
 
                     <li>
-                        <a href="./matriculas.html">
+                        <a href="./matriculas.php">
                             <span class="material-symbols-sharp">person_add</span>
                             <h3>Matrículas</h3>
                         </a>
                     </li>
 
                     <li>
-                        <a href="./sistema_aluno.html">
+                        <a href="./sistema_aluno.php">
                             <span class="material-symbols-sharp">cast_for_education</span>
                             <h3>Sistema do Aluno</h3>
                         </a>
                     </li>
 
                     <li>
-                        <a href="./informativo.html">
+                        <a href="./informativo.php">
                             <span class="material-symbols-sharp">display_settings</span>
                             <h3>Informativos</h3>
                         </a>
                     </li>
 
                     <li>
-                    <a href="./alunos.html">
+                    <a href="./alunos.php">
                         <span class="material-symbols-sharp">badge</span>
                         <h3>Alunos</h3>
                     </a>
                     </li>
 
                     <li>
-                    <a href="#">
+                    <a href="./renovacao.php">
                         <span class="material-symbols-sharp">group_add</span>
                         <h3>Renovação</h3>
                     </a>
@@ -72,13 +72,13 @@
                             <h3>Financeiro</h3>
                             <span class="material-symbols-sharp expand">chevron_right</span>
                         </a>
-                        <!--
-                        <ul class="more">
+                        
+                        <ul class="sub-menu">
                             <li><a href="#">Contas Bancárias</a></li>
                             <li><a href="#">Taxas Extras</a></li>
                             <li><a href="#">Gerar Cobrança por Aluno</a></li>
                         </ul>
-                        -->
+                        
                         
                     </li>
 
@@ -90,7 +90,7 @@
                     </a>
                     </li>
 
-                    <li class="m-top-6">
+                    <li class="">
                     <a href="#">
                         <span class="material-symbols-sharp">logout</span>
                         <h3>Sair</h3>
