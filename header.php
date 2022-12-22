@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,12 @@
     <link rel="stylesheet" href="http://localhost/htmlnovogenium/LayoutNovoGenium/css/style.css">
     <!--Icons-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <!--Tipografia-->
     <title>Sistema Genium</title>
 </head>
+
 <body>
 
     <header>
@@ -23,7 +27,7 @@
             <button id="menu-btn">
                 <span class="material-symbols-sharp">menu</span>
             </button>
-            
+
             <div class="profile">
 
                 <div class="theme-toggler">

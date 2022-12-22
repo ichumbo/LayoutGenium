@@ -44,24 +44,14 @@ aside .close {
 
 /*============================================================SIDEBAR======================================================================*/
 
-nav ul li .sub-menu {
-    padding: 6px 6px 8px 8px;
-    margin-top: -10px;
-    background: var(--color-light);
-    border-radius: 0.7rem;
+nav ul li .sub-menu.mostra {
+    display: block;
+    background: blue;
 }
 
-nav.close ul li .sub-menu {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    margin-top: 0;
-    padding: 10px 20px;
-}
-
-nav ul li .sub-menu a {
-    padding: 5px 0;
-    white-space: nowrap;
+nav ul li .sub-menu a{
+    background: red;
+    font-size: 11px;
 }
 
 
@@ -76,7 +66,7 @@ aside h3 {
     font-weight: 500;
 }
 
-aside .sidebar a {
+aside .sidebar aside a {
     display: flex;
     color: var(--color-info-dark);
     margin-left: 2rem;
@@ -125,5 +115,9 @@ aside .sidebar a:hover {
 
 aside .sidebar a:hover span {
     margin-left: 1rem;
+}
+
+::-webkit-scrollbar{
+    background: var(--color-background);
 }
 
