@@ -6,35 +6,12 @@
         <?php require_once "sidebar.php"; ?>
     </div>
        
-    <div>
+    <div class="z-index-1">
         <?php require_once "main.php" ?>
     </div>
         
-    <div>
-        <section class="right">
-
-            <article class="statistics">
-                <h2>Estatística</h2>
-                <div class="item online">
-                    <div class="icon">
-                        <span class="material-symbols-sharp">developer_board</span>
-                    </div>
-                    <div class="right">
-                        <div class="info">
-                            <button>Carregar dados da unidade</button>
-                            <button>Estatística Completa</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item add-statistic">
-                    <div>
-                        <span class="material-symbols-sharp">add</span>
-                        <h3>Adicionar Estatística</h3>
-                    </div>
-                </div>
-            </article>
-
-        </section>
+    <div class="m-top-1">
+        <?php require_once "estatistica.php" ?>
     </div>
 
     <script src="http://localhost/htmlnovogenium/LayoutNovoGenium/index.js">

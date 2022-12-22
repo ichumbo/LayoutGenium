@@ -72,11 +72,13 @@
                             <h3>Financeiro</h3>
                             <span class="material-symbols-sharp expand">chevron_right</span>
                         </a>
+                        <!--
                         <ul class="more">
                             <li><a href="#">Contas Bancárias</a></li>
                             <li><a href="#">Taxas Extras</a></li>
                             <li><a href="#">Gerar Cobrança por Aluno</a></li>
                         </ul>
+                        -->
                         
                     </li>
 
@@ -88,7 +90,7 @@
                     </a>
                     </li>
 
-                    <li>
+                    <li class="m-top-6">
                     <a href="#">
                         <span class="material-symbols-sharp">logout</span>
                         <h3>Sair</h3>
