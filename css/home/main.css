@@ -78,7 +78,7 @@ main .left .renovation {
 main .left input {
     display: flex;
     flex-direction: column;
-    background: var(--color-background-input);
+    background: var(--color-light);
     padding: 0.2rem 1.6rem;
     border: .1rem solid var(--color-primary);
     font-size: 13px;
@@ -94,7 +94,7 @@ main .left input::placeholder {
 main .left select {
     display: flex;
     flex-direction: column;
-    background: var(--color-background-input);
+    background: var(--color-light);
     padding: 0.2rem 1.6rem;
     border: .1rem solid var(--color-primary);
     font-size: 13px;

@@ -111,8 +111,8 @@
                         </a>
                         </li>
 
-                        <li class="">
-                        <a href="#">
+                        <li>
+                        <a href="#" class="logout">
                             <span class="material-symbols-sharp">logout</span>
                             <h3>Sair</h3>
                         </a>
