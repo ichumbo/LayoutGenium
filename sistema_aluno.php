@@ -24,7 +24,7 @@
                                 <br>
                                 <div>
                                     <div>
-                                        <b class="name-color">O acesse ao sistema está: <b class="color-3">Liberado</b></b>
+                                        <b class="name-color">O acesse ao sistema está: <b class="color-3">LIBERADO</b></b>
                                         <select name="select">
                                             <option value="valor1">Valor 1</option>
                                             <option value="valor2" selected>Liberar acesso ao sistema do aluno</option>
@@ -35,7 +35,7 @@
                                     </div>
                                     <br>
                                     <div>
-                                        <b class="name-color">O acesse ao boletim está: <b class="color-3">Liberado</b></b>
+                                        <b class="name-color">O acesse ao boletim está: <b class="color-3">LIBERADO</b></b>
                                         <select name="select">
                                             <option value="valor1">Valor 1</option>
                                             <option value="valor2" selected>Liberar acesso ao boletim</option>
@@ -46,7 +46,7 @@
                                     </div>
                                     <br>
                                     <div>
-                                        <b class="name-color">O acesse ao financeiro está: <b class="color-3">Liberado</b></b>
+                                        <b class="name-color">O acesse ao financeiro está: <b class="color-3">LIBERADO</b></b>
                                         <select name="select">
                                             <option value="valor1">Valor 1</option>
                                             <option value="valor2" selected>Liberar acesso ao financeiro</option>
