@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
-    <link rel="stylesheet" href="http://localhost/htmlnovogenium/LayoutNovoGenium/css/style.css">
+    <link rel="stylesheet" href="LayoutGenium/css/style.css">
     <!--Icons-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
     <!--jQuery-->
@@ -20,7 +20,7 @@
     <header>
         <div class="top">
             <div class="logo">
-                <img src="http://localhost/htmlnovogenium/LayoutNovoGenium/img/icon_Blue.png" alt="Sistema Genium">
+                <img src="http://localhost/LayoutGenium/img/icon_Blue.png" alt="Sistema Genium">
                 <h2 class="name-icon"><span class="color-1">ENIUM</span></h2>
             </div>
 
