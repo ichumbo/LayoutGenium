@@ -376,6 +376,6 @@
 </aside>
 
 
-        <script src="http://localhost/htmlnovogenium/LayoutNovoGenium/index.js?v="<?php echo time()?>>
+        <script src="http://localhost/LayoutGenium/index.js?v="<?php echo time()?>>
 
         </script>

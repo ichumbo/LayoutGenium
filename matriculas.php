@@ -90,7 +90,7 @@
 
     </div>
 
-    <script src="http://localhost/htmlnovogenium/LayoutNovoGenium/index.js">
+    <script src="http://localhost/LayoutGenium/index.js">
 
     </script>
 
