@@ -27,7 +27,7 @@ main .left {
 main .left > div {
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 7rem;
 }
 
 main .left b {
@@ -48,13 +48,13 @@ main .left h4 {
 
 main .left .informative {
     position: relative;
-    left: 3rem;
+    left: 2.5rem;
     top: .8rem;
 }
 
 main .left .registration {  
     position: relative;
-    left: 6rem;
+    left: 5.1rem;
 }
 
 main .left .student-system {
@@ -71,6 +71,16 @@ main .left .student {
 main .left .renovation {
     position: relative;
     left: 7.5rem;
+}
+
+main .left .register {
+    position: relative;
+    left: 4.5rem;
+}
+
+main .left .register-disciplines {
+    position: relative;
+    left: 6.7rem;
 }
 
 /*final do posicionamento dos botões das páginas*/

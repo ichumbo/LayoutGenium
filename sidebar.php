@@ -66,7 +66,6 @@
                                         Usuários do Sistema
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
-
                                 </li>
                                 <li>
                                     <a class="sub-item" href="#">
@@ -164,25 +163,25 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="sub-item" href="#">
+                                <a class="sub-item" href="./cadastrar_disciplinas_serie.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
                                     Cadastrar Disciplinas por Série
                                 </a>
                             </li>
                             <li>
-                                <a class="sub-item" href="#">
+                                <a class="sub-item" href="./ativar_disciplinas_turma_alunos.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
                                     Ativar Disciplinas para Turma e Alunos
                                 </a>
                             </li>
                             <li>
-                                <a class="sub-item" href="#">
+                                <a class="sub-item" href="./ativar_disciplinas_dependencias_alunos.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
                                     Ativar Disciplinas e Dependências para Alunos
                                 </a>
                             </li>
                             <li>
-                                <a class="sub-item" href="#">
+                                <a class="sub-item" href="./acessar_vida_escolar_de_alunos.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
                                     Acessar Vida Escolar de Alunos
                                 </a>

@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
-<<<<<<< HEAD
     <link rel="stylesheet" href="http://localhost/LayoutGenium/css/style.css">
-=======
-    <link rel="stylesheet" href="LayoutGenium/css/style.css">
->>>>>>> 4a841503eeff345fdc6f6d1cf4910123675518ae
     <!--Icons-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
     <!--jQuery-->
