@@ -110,6 +110,12 @@ main .left .to-alter {
     bottom: -0.8rem;
 }
 
+main .left .list {
+    position: relative;
+    left: -13.5rem;
+    top: 1.2rem;
+}
+
 /*final do posicionamento dos botões das páginas*/
 
 main .left input {

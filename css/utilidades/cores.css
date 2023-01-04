@@ -43,6 +43,12 @@
     color: var(--color-refused);
 }
 
+.color-5 {
+    color: var(--color-dark-variant);
+    position: relative;
+    bottom: 1.2rem;
+}
+
 
 /*Cores-MODELIGHT-----------------------------------------------------------------------------------------------------------------*/
 .dark-theme-variables {

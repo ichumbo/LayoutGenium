@@ -32,17 +32,22 @@
                                 </div>          
                                 <br>
                                 <div>
-                                    <button class="student">OK</button>                   
+                                    <button class="list">OK</button>                   
+                                </div>
+                                <br>
+                                <div>
+                                    <button class="list"><span class="material-symbols-sharp sub-icon">print</span>Imprimir</button> 
                                 </div>
                             </div>
                         </div>
-
+                        
                     </div>
                 </div>
             </div>
 
             <div class="list-table">
-                            <h2>Ordem Recente</h2>
+                            <h2>Relação de Usuarios do Sistema</h2>
+                            <h4 class="color-5">Mostrando página 1 de 2 páginas</h4>
                             <table>
                                 <thead>
                                     <tr>
