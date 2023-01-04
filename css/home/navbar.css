@@ -19,8 +19,8 @@ aside.navbar {
     margin-top: 1.4rem;
     margin-left: 1rem;
     overflow-x: auto;
-    min-width: 210px;
-    max-width: 230px;
+    min-width: 240px;
+    max-width: 240px;
     height: calc(100vh - 6rem);
 }
 
@@ -47,6 +47,7 @@ aside .close {
 
 nav ul li .sub-menu a{
     font-size: 11px;
+    white-space: nowrap;
 }
 
 

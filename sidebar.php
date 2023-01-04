@@ -165,25 +165,25 @@
                             <li>
                                 <a class="sub-item" href="./cadastrar_disciplinas_serie.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                    Cadastrar Disciplinas por Série
+                                    Cadastrar Disciplinas <br> por Série
                                 </a>
                             </li>
                             <li>
                                 <a class="sub-item" href="./ativar_disciplinas_turma_alunos.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                    Ativar Disciplinas para Turma e Alunos
+                                    Ativar Disciplinas <br> para Turma e Alunos
                                 </a>
                             </li>
                             <li>
                                 <a class="sub-item" href="./ativar_disciplinas_dependencias_alunos.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                    Ativar Disciplinas e Dependências para Alunos
+                                    Ativar Disciplinas e <br> Dependências para Alunos
                                 </a>
                             </li>
                             <li>
                                 <a class="sub-item" href="./acessar_vida_escolar_de_alunos.php">
                                     <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                    Acessar Vida Escolar de Alunos
+                                    Acessar Vida Escolar <br> de Alunos
                                 </a>
                             </li>
                             <li>
@@ -250,13 +250,13 @@
                                 <li>
                                     <a class="sub-item" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                        Gerar Cobranças para Alunos
+                                        Gerar Cobranças <br> para Alunos
                                     </a>
                                 </li>
                                 <li>
                                     <a class="sub-item" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                        Gerenciar Informações e Pagamentos
+                                        Gerenciar Informações <br> e Pagamentos
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
                                 </li>
@@ -297,7 +297,7 @@
                                 <li>
                                     <a class="sub-item" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                        Folha de Pagamento de Professores
+                                        Folha de Pagamento <br> de Professores
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
                                 </li>
