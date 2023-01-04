@@ -13,7 +13,7 @@
         <div class="m-top-1">
             <?php require_once "estatistica.php" ?>
         </div>
-        a
+        
     </div>
 
     <script src="http://localhost/LayoutGenium/index.js">
