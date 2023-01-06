@@ -1,0 +1,65 @@
+version: '3'
+services:
+
+  #PHP Service
+  genium_front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: digitalocean.com/php
+    container_name: genium_front
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: genium_front
+      SERVICE_TAGS: dev
+      SITE_URL: http://localhost/
+    working_dir: /var/www
+    volumes:
+       - ./app:/var/www
+       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - genium_front_network
+
+  #Nginx Service
+  genium_front_webserver:
+    image: nginx:alpine
+    container_name: genium_front_webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./app:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - genium_front_network
+
+  #MySQL Service
+  # genium_front_db:
+  #   image: mysql:5.7.22
+  #   container_name: genium_front_db
+  #   restart: unless-stopped
+  #   tty: true
+  #   ports:
+  #     - "3306:3306"
+  #   environment:
+  #     MYSQL_DATABASE: laravel
+  #     MYSQL_ROOT_PASSWORD: laravel_pass
+  #     MYSQL_USER: laravel_user
+  #     MYSQL_PASSWORD: laravel_db_pass
+  #     SERVICE_TAGS: dev
+  #     SERVICE_NAME: mysql
+  #   volumes:
+  #     - ./dbdata:/var/lib/mysql
+  #     - ./mysql/my.cnf:/etc/mysql/my.cnf
+  #   networks:
+  #     - genium_front_network
+#Docker Networks
+networks:
+  genium_front_network:
+    driver: bridge
+volumes:
+  dbdata:
+    driver: local
