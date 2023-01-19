@@ -10,8 +10,6 @@
 
         <main>
 
-            <h1>Listar Usuários</h1>
-
             <div class="quite">
 
                 <div class="sales">
@@ -29,14 +27,9 @@
                                         <option value="valor2" selected>Selecione a Turma</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>  
-                                </div>          
-                                <br>
-                                <div>
-                                    <button class="list">OK</button>                   
                                 </div>
-                                <br>
                                 <div>
-                                    <button class="list"><span class="material-symbols-sharp sub-icon">print</span>Imprimir</button> 
+                                    <button class="list">Filtrar</button>                   
                                 </div>
                             </div>
                         </div>

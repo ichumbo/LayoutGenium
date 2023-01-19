@@ -112,7 +112,13 @@ main .left .to-alter {
 
 main .left .list {
     position: relative;
-    left: -13.5rem;
+    left: -6.5rem;
+    top: 1.2rem;
+}
+
+main .left .change-user {
+    position: relative;
+    left: 7.5rem;
     top: 1.2rem;
 }
 

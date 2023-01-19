@@ -13,65 +13,61 @@
             <div class="quite">
 
                 <div class="sales">
-                    <span class="material-symbols-sharp">person_add</span>
+                    <span class="material-symbols-sharp">manage_accounts</span>
                     <div class="middle">
                         <div class="left">
 
-                            <h2>Cadastrar Aluno</h2>
+                            <h2>Alterar Usuário</h2>
                             <br>
                             <div class="grid">
                                 <div>
-                                    <b class="name-color">Nome:</b>
-                                    <input type="text" placeholder="Coloque o nome" required>
-
-                                    <b class="name-color">Nível:</b>
+                                    <b class="name-color">Ano Letivo:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione</option>
+                                        <option value="valor2" selected>Selecione a Ano Letivo</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-
-                                    <b class="name-color">Nível:</b>
+                                    <b class="name-color">Ano Letivo:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione</option>
+                                        <option value="valor2" selected>Selecione a Ano Letivo</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-                                </div>
-                                <div>
-                                    <b class="name-color">Nível:</b>
+                                    <b class="name-color">Ano Letivo:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione</option>
-                                        <option value="valor3">Valor 3</option>
-                                    </select>
-
-                                    <b class="name-color">Nível:</b>
-                                    <select name="select">
-                                        <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione</option>
-                                        <option value="valor3">Valor 3</option>
-                                    </select>
-
-                                    <b class="name-color">Nível:</b>
-                                    <select name="select">
-                                        <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione</option>
+                                        <option value="valor2" selected>Selecione a Ano Letivo</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
                                 <div>
-                                    <b class="name-color">Nível:</b>
+                                    <b class="name-color">Ano Letivo:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione</option>
+                                        <option value="valor2" selected>Selecione a Ano Letivo</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-
-                                    <b class="name-color">Nome:</b>
-                                    <input type="text" placeholder="Coloque o nome" required>
-                                    <p>senha para acesso é o número de matrícula.</p>
-                                    <button class="register-user">Cadastrar Aluno e Avançar</button>
+                                    <b class="name-color">Ano Letivo:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione a Ano Letivo</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                    <b class="name-color">Ano Letivo:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione a Ano Letivo</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <b class="name-color">Ano Letivo:</b>
+                                    <select name="select">
+                                        <option value="valor1">Valor 1</option>
+                                        <option value="valor2" selected>Selecione a Ano Letivo</option>
+                                        <option value="valor3">Valor 3</option>
+                                    </select>
+                                    <button class="change-user">OK</button>
                                 </div>
                             </div>
                         </div>
