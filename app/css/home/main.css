@@ -128,6 +128,7 @@ main .left input {
     color: var(--color-primary);
     width: 260px;
     border-radius: 7px;
+    margin-bottom: 1rem;
 }
 
 main .left input.checkbox {
@@ -156,6 +157,7 @@ main .left select {
     color: var(--color-primary);
     width: 260px;
     border-radius: 7px;
+    margin-bottom: 1rem;
 }
 
 main .quite {
@@ -205,6 +207,7 @@ main .quite > div {
     margin-top: 1rem;
     box-shadow: var(--box-shadow);
     transition: all 300ms ease;
+    width: 75rem;
 }
 
 main .quite > div:hover {

@@ -19,8 +19,6 @@ aside.navbar {
     margin-top: 1.4rem;
     margin-left: 1rem;
     overflow-x: auto;
-    min-width: 240px;
-    max-width: 240px;
     height: calc(100vh - 6rem);
 }
 
@@ -147,6 +145,11 @@ aside .sidebar a:hover span {
 }
 
 ::-webkit-scrollbar{
-    background: var(--color-background);
+    display: none;
 }
 
+/* ::-webkit-scrollbar-thumb {
+    background-color: var(--color-light);    
+    border-radius: 20px;
+}
+*/

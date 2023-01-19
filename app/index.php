@@ -16,9 +16,7 @@
         
     </div>
 
-    <script src="<?php echo getenv('SITE_URL'); ?>index.js">
-        a
-    </script>
+    <script src="<?php echo getenv('SITE_URL'); ?>index.js"></script>
 
 </body>
 </html>

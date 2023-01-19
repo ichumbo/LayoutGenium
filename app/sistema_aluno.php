@@ -28,10 +28,8 @@
                                             <option value="valor2" selected>Liberar acesso ao sistema do aluno</option>
                                             <option value="valor3">Valor 3</option>
                                         </select>
-                                        <br>
                                         <button class="student-system">OK</button>
                                     </div>
-                                    <br>
                                     <div>
                                         <b class="name-color">O acesse ao boletim está: <b class="color-3">LIBERADO</b></b>
                                         <select name="select">
@@ -39,10 +37,8 @@
                                             <option value="valor2" selected>Liberar acesso ao boletim</option>
                                             <option value="valor3">Valor 3</option>
                                         </select>
-                                        <br>
                                         <button class="student-system">OK</button>
                                     </div>
-                                    <br>
                                     <div>
                                         <b class="name-color">O acesse ao financeiro está: <b class="color-3">LIBERADO</b></b>
                                         <select name="select">
@@ -50,7 +46,6 @@
                                             <option value="valor2" selected>Liberar acesso ao financeiro</option>
                                             <option value="valor3">Valor 3</option>
                                         </select>
-                                        <br>
                                         <button class="student-system">OK</button>
                                     </div>
                                 </div>
