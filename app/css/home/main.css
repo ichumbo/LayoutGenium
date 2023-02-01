@@ -27,7 +27,7 @@ main .left {
 main .left > div {
     display: flex;
     justify-content: space-between;
-    gap: 7rem;
+    gap: 3rem;
 }
 
 
@@ -107,18 +107,13 @@ main .left .register-user {
 
 main .left .to-alter {
     position: relative;
-    bottom: -0.8rem;
+    bottom: -1.1rem;
+    width: 16rem
 }
 
 main .left .list {
     position: relative;
-    left: -6.5rem;
-    top: 1.2rem;
-}
-
-main .left .change-user {
-    position: relative;
-    left: 7.5rem;
+    left: -2.5rem;
     top: 1.2rem;
 }
 
@@ -135,6 +130,18 @@ main .left input {
     width: 260px;
     border-radius: 7px;
     margin-bottom: 1rem;
+}
+
+main .left input.name-search {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-light);
+    padding: 0.5rem 2.7rem;
+    border: 0.1rem solid var(--color-primary);
+    font-size: 14px;
+    color: var(--color-primary);
+    width: 28rem;
+    border-radius: 7px;
 }
 
 main .left input.checkbox {
@@ -170,7 +177,7 @@ main .quite {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.6rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100%;
 }
 
@@ -213,7 +220,6 @@ main .quite > div {
     margin-top: 1rem;
     box-shadow: var(--box-shadow);
     transition: all 300ms ease;
-    width: 75rem;
 }
 
 main .quite > div:hover {
@@ -227,6 +233,16 @@ main .quite > div span {
     color: var(--color-white);
     font-size: 2rem;
 }
+
+main .quite > div span.input-icon {
+    background: none;
+    color: var(--color-primary);
+    font-size: 2rem;
+    position: relative;
+    right: 35rem;
+    bottom: -1.1rem;
+}
+
 
 main .quite > div .middle {
     display: flex;

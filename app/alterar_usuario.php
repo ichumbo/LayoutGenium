@@ -10,8 +10,6 @@
 
         <main>
 
-            <h1>Alterar Usuário</h1>
-
             <div class="quite">
 
                 <div class="sales">
@@ -26,12 +24,12 @@
                                     <b class="name-color">Nome:</b>
                                     <input type="text" placeholder="Coloque o nome" required>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <b class="name-color">Nome:</b>
                                     <input type="text" placeholder="Coloque o nome" required>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <button class="to-alter">Cadastrar Usuário e Avançar >></button>
                                 </div>

@@ -20,7 +20,7 @@
 
                                 <p class="t-start ">Selecione a série referente ao informativo nos combos abaixo. Se for uma informação geral, basta não selecionar a série abaixo.</p>
                                 <b>Você deve selecionar o anoletivo pertinente aos alunos da série.</b>
-                                
+                                <br>
                                 <div class="grid">
                                     <div>
                                         <b class="name-color">Unidade:</b>
@@ -30,9 +30,9 @@
                                             <option value="valor3">Valor 3</option>
                                         </select>
                                     </div>
-                                    
+
                                     <div>
-                                    <b class="name-color">Modalidade:</b>
+                                        <b class="name-color">Modalidade:</b>
                                         <select name="select">
                                             <option value="valor1">Valor 1</option>
                                             <option value="valor2" selected>Selecione a Unidade</option>
@@ -40,7 +40,7 @@
                                         </select>
                                         <button class="informative">Cadastrar Aluno e Avançar</button>
                                     </div>
-                                    
+
                                     <div>
                                         <b class="name-color">Curso:</b>
                                         <select name="select">
@@ -64,5 +64,6 @@
 
     </script>
 
-</body>
-</html>
+    </body>
+
+    </html>

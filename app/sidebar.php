@@ -61,11 +61,21 @@
 
                             <ul class="sub-menu">
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Usuários do Sistema
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
+
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon">add_circle</span>
+                                                Teste
+                                                <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a class="sub-item" href="#">

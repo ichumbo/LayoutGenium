@@ -10,8 +10,6 @@
 
         <main>
 
-            <h1>Excluir Usuário</h1>
-
             <div class="quite">
 
                 <div class="sales">
@@ -31,7 +29,7 @@
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
-                                <br>
+                                
                                 <div>
                                 <b class="name-color">Nível:</b>
                                     <select name="select">
@@ -40,7 +38,7 @@
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <button class="to-alter">Excluir Usuário</button>
                                 </div>
