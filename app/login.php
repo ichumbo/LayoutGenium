@@ -17,32 +17,42 @@
     <div class="page">
         <div class="welcome">
             <img src="./img/Logo_White.png" alt="Sistema Genium">
-            <p>Sistema de Gestão Pedagógica</p>
+            <p class="title">Faça login na sua conta</p>
             <button class="login_btn">Login</button>
-            <button class="register_btn">Registrar</button>
-        </div>
-
-        <div class="register">
-            <form>
-                <h2>Registre sua conta</h2>
-                <input type="text" class="reg-input" placeholder="Usuário">
-                <input type="email" placeholder="Email" class="reg-input">
-                <input type="password" class="reg-input" placeholder="Senha">
-                <input type="submit" value="REGISTER" class="reg-btn">
-            </form>
+            <button class="recover_btn">Esqueceu a senha?</button>
         </div>
 
         <div class="login">
             <form>
-                <h2>Faça login na sua conta</h2>
-                <input type="email" class="log-input" placeholder="Email">
+                <input type="user" class="log-input margin-t" placeholder="Usuário">
                 <input type="password" class="log-input" placeholder="Senha">
-                <input type="submit" value="LOGIN" class="log-btn">
-
-                <a href="#" class="forg-pass">Esqueceu a senha?</a>
+                <select name="select" class="log-input">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>Selecione</option>
+                    <option value="valor3">Valor 3</option>
+                </select>
+                <select name="select" class="log-input">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>Selecione</option>
+                    <option value="valor3">Valor 3</option>
+                </select>
+                <select name="select" class="log-input">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>Selecione</option>
+                    <option value="valor3">Valor 3</option>
+                </select>
+                <input type="submit" value="Login" class="log-btn">
             </form>
         </div>
-    </div>
+
+        <div class="recover">
+            <form>
+                <h2>Recuperação de Senha</h2>
+                <input type="email" placeholder="Email" class="rec-input">
+                <input type="submit" value="Recuperar Senha" class="rec-btn">
+                <p class="notice">Caso você não receba o <span>email</span>, entre em contato com seu administrador para verificar se o email está correto.</p>
+            </form>
+        </div>
 
     <script src="login.js"></script>
 </body>

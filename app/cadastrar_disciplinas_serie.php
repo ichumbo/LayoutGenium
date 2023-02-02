@@ -10,8 +10,6 @@
 
         <main>
 
-            <h1>Cadastrar Disciplinas por Série</h1>
-
             <div class="quite">
 
                 <div class="sales">

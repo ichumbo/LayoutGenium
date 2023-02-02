@@ -11,42 +11,42 @@
                     <ul id="main-menu">
                         <li>
                             <a href="<?php echo getenv('SITE_URL'); ?>">
-                            <span class="material-symbols-sharp">dashboard</span>
+                            <span class="material-symbols-sharp move">dashboard</span>
                             <h3>Inicío</h3>
                             </a>
                         </li>   
                     
                         <li>
                             <a href="<?php echo getenv('SITE_URL'); ?>matriculas.php">
-                                <span class="material-symbols-sharp">person_add</span>
+                                <span class="material-symbols-sharp move">person_add</span>
                                 <h3>Matrículas</h3>
                             </a>
                         </li>
 
                         <li>
                             <a href="<?php echo getenv('SITE_URL'); ?>sistema_aluno.php">
-                                <span class="material-symbols-sharp">cast_for_education</span>
+                                <span class="material-symbols-sharp move">cast_for_education</span>
                                 <h3>Sistema do Aluno</h3>
                             </a>
                         </li>
 
                         <li>
                             <a href="<?php echo getenv('SITE_URL'); ?>informativo.php">
-                                <span class="material-symbols-sharp">display_settings</span>
+                                <span class="material-symbols-sharp move">display_settings</span>
                                 <h3>Informativos</h3>
                             </a>
                         </li>
 
                         <li>
                         <a href="<?php echo getenv('SITE_URL'); ?>alunos.php">
-                            <span class="material-symbols-sharp">badge</span>
+                            <span class="material-symbols-sharp move">badge</span>
                             <h3>Alunos</h3>
                         </a>
                         </li>
 
                         <li>
                         <a href="<?php echo getenv('SITE_URL'); ?>renovacao.php">
-                            <span class="material-symbols-sharp">group_add</span>
+                            <span class="material-symbols-sharp move">group_add</span>
                             <h3>Renovação</h3>
                         </a>
                         </li>
@@ -54,7 +54,7 @@
                         <li class="dropdown">
 
                             <a href="#" class="cadastros temSubMenu">
-                                <span class="material-symbols-sharp">recent_actors</span>
+                                <span class="material-symbols-sharp move">recent_actors</span>
                                 <h3>Cadastros</h3>
                                 <span class="material-symbols-sharp expand">keyboard_double_arrow_right</span>
                             </a>
@@ -69,86 +69,251 @@
 
                                     <ul class="sub-menu">
                                         <li>
+                                            <a class="sub-item" href="cadastrar_novo_usuario.php">
+                                                <span class="material-symbols-sharp sub-icon margin-l">add_circle</span>
+                                                Cadastrar Novo Usuário
+                                            </a>
+                                        </li>
+                                        <li>
                                             <a class="sub-item" href="#">
-                                                <span class="material-symbols-sharp sub-icon">add_circle</span>
-                                                Teste
-                                                <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
+                                                <span class="material-symbols-sharp sub-icon margin-l">check_circle</span>
+                                                Alterar Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
+                                                Excluir Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
+                                                Listar Usuários
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">search</span>
+                                                Buscar Usuários
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Alunos
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
+
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">add_circle</span>
+                                                Matrícula
+                                                <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
+                                                Ficha de Matrícula
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
+                                                Vida Escolar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">search</span>
+                                                Financeiro
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Séries
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
+
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">add_circle</span>
+                                                Cadastrar Novo Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">check_circle</span>
+                                                Alterar Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
+                                                Excluir Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
+                                                Listar Usuários
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Modalidades
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
+
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">add_circle</span>
+                                                Cadastrar Novo Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">check_circle</span>
+                                                Alterar Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
+                                                Excluir Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
+                                                Listar Usuários
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Turmas
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
+
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">add_circle</span>
+                                                Cadastrar Novo Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">check_circle</span>
+                                                Alterar Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
+                                                Excluir Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
+                                                Listar Usuários
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">search</span>
+                                                Buscar Usuários
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Turnos
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
+
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">add_circle</span>
+                                                Cadastrar Novo Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">check_circle</span>
+                                                Alterar Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
+                                                Excluir Usuário
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-item" href="#">
+                                                <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
+                                                Listar Usuários
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Disciplinas
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Professores
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Unidades
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Permissões
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Modelos de Ocorrências
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="sub-item" href="#">
+                                    <a class="sub-item temSubMenu" href="#">
                                         <span class="material-symbols-sharp sub-icon">add_circle</span>
                                         Escola Online
                                         <span class="material-symbols-sharp sub-icon-1">chevron_right</span>
@@ -160,7 +325,7 @@
 
                         <li class="dropdown">
                         <a href="#" class="secretaria temSubMenu">
-                            <span class="material-symbols-sharp">chair</span>
+                            <span class="material-symbols-sharp move">chair</span>
                             <h3>Secretaria</h3>
                             <span class="material-symbols-sharp expand">keyboard_double_arrow_right</span>
                         </a>
@@ -237,7 +402,7 @@
 
                         <li class="dropdown">
                             <a href="#" class="financeiro temSubMenu">
-                                <span class="material-symbols-sharp">attach_money</span>
+                                <span class="material-symbols-sharp move">attach_money</span>
                                 <h3>Financeiro</h3>
                                 <span class="material-symbols-sharp expand">keyboard_double_arrow_right</span>
                             </a>
@@ -342,7 +507,7 @@
 
                         <li class="dropdown">
                         <a href="#" class="formularios temSubMenu">
-                            <span class="material-symbols-sharp">home_storage</span>
+                            <span class="material-symbols-sharp move">home_storage</span>
                             <h3>Formulários</h3>
                             <span class="material-symbols-sharp expand">keyboard_double_arrow_right</span>
                         </a>
@@ -375,7 +540,7 @@
 
                         <li>
                         <a href="#" class="logout">
-                            <span class="material-symbols-sharp">logout</span>
+                            <span class="material-symbols-sharp move">logout</span>
                             <h3>Sair</h3>
                         </a>
                         </li>   

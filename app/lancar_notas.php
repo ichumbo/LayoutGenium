@@ -10,8 +10,6 @@
 
         <main>
 
-            <h1>Lançar Notas</h1>
-
             <div class="quite">
 
                 <div class="sales">

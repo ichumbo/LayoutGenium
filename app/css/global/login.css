@@ -49,6 +49,12 @@ body {
     font-weight: 300;
 }
 
+.welcome .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
 .login_btn {
     margin:30px 0;
     width: 150px;
@@ -65,7 +71,19 @@ body {
     transition-delay: .5s;
 }
 
-.register_btn {
+.recover_btn:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    transition-delay: 0s;
+}
+
+.login_btn:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    transition-delay: 0s;
+}
+
+.recover_btn {
     display: none;
     position: absolute;
     top: 57.5%;
@@ -85,11 +103,10 @@ body {
     transition-delay: .5s;
 }
 
-.register_btn.active {
+.recover_btn.active {
     opacity: 1;
     visibility: visible;
     display: block;
-    margin-top: 2rem;
 }
 
 .login_btn.active {
@@ -98,7 +115,7 @@ body {
     display: none;
 }
 
-.register {
+.recover {
     position: absolute;
     top: 0;
     left: 300px;
@@ -111,20 +128,30 @@ body {
     visibility: visible;
 }
 
-.register h2 {
+.recover h2 {
     position: relative;
     margin: 40px 0;
     padding: 0;
 }
 
-.register input {
+.recover .notice {
+    margin: 30px 20px 0px 20px;
+    font-size: 13px;
+    color: #7f7f7f;
+}
+
+.recover span {
+    color: #004aad;
+}
+
+.recover input {
     margin: 5px 0;
     width: 300px;
     height: 30px;
     font-weight: 700;
 }
 
-.reg-input {
+.rec-input {
     padding: 5px 10px;
     outline: none;
     border: 2px solid #ccc;
@@ -132,11 +159,11 @@ body {
     transition: .5s;
 }
 
-.reg-input:focus {
+.rec-input:focus {
     border-color: #7f7f7f;
 }
 
-.register .reg-btn {
+.recover .rec-btn {
     height: 40px;
     font-weight: 600;
     background: linear-gradient(to bottom right, #004aad, #111e88);
@@ -149,7 +176,7 @@ body {
 }
 
 
-.register .reg-btn:hover {
+.recover .rec-btn:hover {
     transform: scale(1.1);
 }
 
@@ -179,7 +206,7 @@ body {
     z-index: 2;
 }
 
-.register.active {
+.recover.active {
     left: 0;
     opacity: 0;
     visibility: hidden;
@@ -204,11 +231,23 @@ body {
     padding: 0;
 }
 
+.login .margin-t {
+    margin-top: 45px;
+}
+
 .login input {
     margin: 5px 0;
     width: 300px;
     height: 30px;
     font-weight: 700;
+}
+
+.login select {
+    margin: 5px 0;
+    width: 324px;
+    height: 45px;
+    font-weight: 700;
+    color: #7f7f7f;
 }
 
 .log-input {

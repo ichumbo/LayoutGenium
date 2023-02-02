@@ -10,8 +10,6 @@
 
         <main>
 
-            <h1>Ativar Disciplinas e Dependências para Alunos</h1>
-
             <div class="quite">
 
                 <div class="sales">

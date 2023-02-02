@@ -10,8 +10,6 @@
 
         <main>
 
-            <h1>Acessar Vida Escolar de Alunos</h1>
-
             <div class="quite">
 
                 <div class="sales">
