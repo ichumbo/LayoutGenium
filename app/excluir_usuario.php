@@ -25,7 +25,7 @@
                                 <b class="name-color">Nível:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione >></option>
+                                        <option value="valor2" selected>Selecione</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
@@ -34,7 +34,7 @@
                                 <b class="name-color">Nível:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione >></option>
+                                        <option value="valor2" selected>Selecione</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>

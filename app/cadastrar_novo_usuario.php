@@ -23,15 +23,15 @@
                                 <div>
                                     <b class="name-color">Nome:</b>
                                     <input type="text" placeholder="Coloque o nome" required>
-                                    <br>
+                                    
                                     <b class="name-color">Nome:</b>
                                     <input type="text" placeholder="Coloque o nome" required>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <b class="name-color">Nome:</b>
                                     <input type="text" placeholder="Coloque o nome" required>
-                                    <br>
+                                    
                                     <b class="name-color">Nível:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
@@ -39,11 +39,11 @@
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <p><b>Selecione as unidades que poderá acessar:</b></p>
                                     <input type="checkbox" class="checkbox"><h3 class="checkbox-text">PILARES</h3>
-                                    <button class="register-user">Cadastrar Usuário e Avançar >></button>
+                                    <button class="register-user">Cadastrar Usuário e Avançar</button>
                                 </div>
                             </div>
                         </div>

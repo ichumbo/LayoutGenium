@@ -117,6 +117,11 @@ main .left .list {
     top: 1.2rem;
 }
 
+main .left .change-user {
+    position: relative;
+    left: 7.4rem;
+}
+
 /*final do posicionamento dos botões das páginas*/
 
 main .left input {

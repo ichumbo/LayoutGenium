@@ -75,25 +75,25 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="alterar_usuario.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">check_circle</span>
                                                 Alterar Usuário
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="excluir_usuario.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
                                                 Excluir Usuário
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="listar_usuarios.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
                                                 Listar Usuários
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="buscar_usuario.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">search</span>
                                                 Buscar Usuários
                                             </a>
@@ -116,19 +116,19 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="ficha_matricula.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">cancel</span>
                                                 Ficha de Matrícula
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="vida_escolar.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">view_list</span>
                                                 Vida Escolar
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="aluno_financeiro.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">search</span>
                                                 Financeiro
                                             </a>
@@ -144,7 +144,7 @@
 
                                     <ul class="sub-menu">
                                         <li>
-                                            <a class="sub-item" href="#">
+                                            <a class="sub-item" href="cadastrar.php">
                                                 <span class="material-symbols-sharp sub-icon margin-l">add_circle</span>
                                                 Cadastrar Novo Usuário
                                             </a>
@@ -539,7 +539,7 @@
                         </li>
 
                         <li>
-                        <a href="#" class="logout">
+                        <a href="login.php" class="logout">
                             <span class="material-symbols-sharp move">logout</span>
                             <h3>Sair</h3>
                         </a>

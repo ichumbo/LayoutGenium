@@ -31,7 +31,7 @@
                                 </div>
                                 
                                 <div>
-                                    <button class="to-alter">Cadastrar Usuário e Avançar >></button>
+                                    <button class="to-alter">Cadastrar Usuário e Avançar</button>
                                 </div>
                             </div>
                         </div>
