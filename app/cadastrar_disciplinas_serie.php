@@ -26,16 +26,16 @@
                                         <option value="valor2" selected>Selecione a Ano Letivo</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-                                    <br>
+                                    
                                     <b class="name-color">Unidade:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
                                         <option value="valor2" selected>Selecione a Unidade</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-                                    <br>
+                                    
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <b class="name-color">Curso:</b>
                                     <select name="select">
@@ -43,17 +43,17 @@
                                         <option value="valor2" selected>Selecione a Curso</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-                                    <br>
+                                    
                                     <b class="name-color">Modalidade:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
                                         <option value="valor2" selected>Selecione a Modalidade</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-                                    <br>
+                                    
                                     <button class="renovation">OK</button>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <b class="name-color">Turno:</b>
                                     <select name="select">
@@ -61,7 +61,7 @@
                                         <option value="valor2" selected>Selecione o Turno</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
-                                    <br>
+                                    
                                     <b class="name-color">Turma:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
