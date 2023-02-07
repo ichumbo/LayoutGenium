@@ -23,22 +23,20 @@
                                 <div>
                                     <b class="name-color">Nome do Modalidade:</b>
                                     <input type="text" placeholder="Coloque o nome" required>
-                                    <br>
+                                    
                                     <b class="name-color">Código do Modalidade:</b>
                                     <input type="text" placeholder="Coloque o nome" required>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <b class="name-color">Observação em documentos:</b>
-                                    <input type="text">
-                                    <br>
-                                    <p>Selecione as Unidades que contemplam essa modalidade:</p>
-                                    <input type="checkbox">
-                                    <b class="name-color">Pilares</b>
+                                    <input type="text" class="obs-input">
                                 </div>
-                                <br>
+                                
                                 <div>
-                                    <button class="register-user">Cadastrar</button>
+                                    <p><b>Selecione as Unidades que contemplam essa modalidade:</b></p>
+                                    <input type="checkbox"  class="checkbox"><b class="name-color checkbox-text">Pilares</b>
+                                    <button class="register-modality">Cadastrar</button>
                                 </div>
                             </div>
                         </div>

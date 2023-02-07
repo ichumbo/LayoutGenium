@@ -35,13 +35,13 @@
                                     <b class="name-color">Nível:</b>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
-                                        <option value="valor2" selected>Selecione >></option>
+                                        <option value="valor2" selected>Selecione</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
                                 
-                                <div>
-                                    <p><b>Selecione as unidades que poderá acessar:</b></p>
+                                <div class="align-register">
+                                    <p><b>Selecione as unidades:</b></p>
                                     <input type="checkbox" class="checkbox"><h3 class="checkbox-text">PILARES</h3>
                                     <button class="register-user">Cadastrar Usuário e Avançar</button>
                                 </div>

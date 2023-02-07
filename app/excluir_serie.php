@@ -31,7 +31,7 @@
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
-                                <br>
+                                
                                 <div>
                                 <b class="name-color">Curso:</b>
                                     <select name="select">
@@ -40,7 +40,7 @@
                                         <option value="valor3">Valor 3</option>
                                     </select>
                                 </div>
-                                <br>
+                                
                                 <div>
                                     <button class="to-alter">Excluir Curso</button>
                                 </div>

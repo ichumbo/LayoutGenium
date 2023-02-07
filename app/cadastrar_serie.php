@@ -17,7 +17,7 @@
                     <div class="middle">
                         <div class="left">
 
-                            <h2>Cadastrar Aluno</h2>
+                            <h2>Cadastrar Série</h2>
                             <br>
                             <div class="grid">
                                 <div>
@@ -57,14 +57,14 @@
                                     <input type="text" placeholder="Coloque o nome" required>
 
                                     <p>Se desejar, você pode reaproveitar módulos e disciplinas de outro curso, assim você não precisa cadastrar tudo novamente. Basta selecionar o curso referência abaixo:</p>
-
+                                    <br>
                                     <select name="select">
                                         <option value="valor1">Valor 1</option>
                                         <option value="valor2" selected>Selecione</option>
                                         <option value="valor3">Valor 3</option>
                                     </select>
 
-                                    <button class="register-user">Cadastrar</button>
+                                    <button class="register-series">Cadastrar</button>
                                 </div>
                             </div>
                         </div>

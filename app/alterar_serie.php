@@ -37,7 +37,7 @@
                                     </select>
                                 </div>
                                 <div>
-                                    <button class="change-user">OK</button>
+                                    <button class="change-series">OK</button>
                                 </div>
                             </div>
                         </div>
