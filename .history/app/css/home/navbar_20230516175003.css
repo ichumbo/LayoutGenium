@@ -39,17 +39,6 @@ aside .logo img {
     margin-bottom: 1.5rem;
 }
 
-aside .navbar::before {
-    content: "";
-    position: absolute;
-    
-    background-color: #0074D9;
-    bottom: -50px;
-    height: 50px;
-    width: 25px;
-    border-top-left-radius: 25px;
-  }
-
 aside .close {
     display: none;
 }

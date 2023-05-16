@@ -1,6 +1,6 @@
 <main>
             <div class="quite">
-                
+                <h2>Mensagens</h2>
                 <div class="sales">
                     <span class="material-symbols-sharp">query_stats</span>
                     <div class="middle">

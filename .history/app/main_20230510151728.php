@@ -1,8 +1,8 @@
 <main>
             <div class="quite">
-                
+
                 <div class="sales">
-                    <span class="material-symbols-sharp">query_stats</span>
+                    <span class="material-symbols-sharp">other_houses</span>
                     <div class="middle">
                         <div class="left">
                             <h2>Bem-vindo ao Sistema de Gestão.</h2>

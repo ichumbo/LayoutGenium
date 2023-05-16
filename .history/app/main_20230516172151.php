@@ -1,14 +1,11 @@
 <main>
             <div class="quite">
-                
+
                 <div class="sales">
                     <span class="material-symbols-sharp">query_stats</span>
                     <div class="middle">
                         <div class="left">
-                            <h2>Bem-vindo ao Sistema de Gestão.</h2>
-                            <p class="m-top-07"><b>Administrador:</b> PHOCO<br>
-                                <b>Data:</b> 07/12/2022<br>
-                                <b>Acessos:</b> 2891 <br></p>
+                            <img src="grafico" alt="/app/img/Grafico.png">
                         </div>
                     </div>
                 </div>

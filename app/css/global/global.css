@@ -107,11 +107,13 @@ button {
     background: var(--color-primary);
     border-radius: 10px;
     color: var(--color-white);
-    font-weight: 500;
+    font-weight: 600;
     padding: .5rem 1rem;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     cursor: pointer;
+    height: 40px;
 }
+
 
 button:hover {
     background: var(--color-white);

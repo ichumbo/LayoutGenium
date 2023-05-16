@@ -1,15 +1,13 @@
 <main>
             <div class="quite">
-                
+
                 <div class="sales">
                     <span class="material-symbols-sharp">query_stats</span>
                     <div class="middle">
-                        <div class="left">
-                            <h2>Bem-vindo ao Sistema de Gestão.</h2>
-                            <p class="m-top-07"><b>Administrador:</b> PHOCO<br>
-                                <b>Data:</b> 07/12/2022<br>
-                                <b>Acessos:</b> 2891 <br></p>
-                        </div>
+                    <div class="logo">
+                        <img src="/app/img/Grafico.png" alt="Sistema Genium">
+                        <h2 class="name-icon"><span class="color-1"></span></h2>
+                    </div>
                     </div>
                 </div>
 

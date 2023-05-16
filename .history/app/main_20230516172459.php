@@ -2,6 +2,7 @@
             <div class="quite">
                 
                 <div class="sales">
+                    <h2>Mensagens</h2>
                     <span class="material-symbols-sharp">query_stats</span>
                     <div class="middle">
                         <div class="left">

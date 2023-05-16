@@ -39,7 +39,7 @@ aside .logo img {
     margin-bottom: 1.5rem;
 }
 
-aside .navbar::before {
+aside .logo img::before {
     content: "";
     position: absolute;
     

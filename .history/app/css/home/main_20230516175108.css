@@ -254,6 +254,7 @@ main .quite > div {
     transition: all 300ms ease;
 }
 
+
 main .quite > div:hover {
     box-shadow: none;
 }

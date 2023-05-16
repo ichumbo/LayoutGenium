@@ -21,12 +21,23 @@
         <div class="top">
             <div class="logo">
                 <img src="<?php echo getenv('SITE_URL'); ?>img/Icon_Blue.png" alt="Sistema Genium">
-                <h2 class="name-icon"><span class="color-1">ENIUM</span></h2>
+                <h2 class="name-icon"><span class="color-1"></span></h2>
             </div>
 
-            <div class="">
-                <input type="select">
+            <div class="filter">
+                <select name="select">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>Selecione a Unidade</option>
+                    <option value="valor3">Valor 3</option>
+                </select>
+
+                <select name="select">
+                    <option value="valor1">Valor 1</option>
+                    <option value="valor2" selected>Selecione a Unidade</option>
+                    <option value="valor3">Valor 3</option>
+                </select>
             </div>
+            <span class="material-symbols-sharp icon">page_info</span>
 
             <button id="menu-btn">
                 <span class="material-symbols-sharp">menu</span>
@@ -46,6 +57,14 @@
                 <div class="profile-photo">
                     <img src="<?php echo getenv('SITE_URL'); ?>img/Icon.png" alt="Foto Perfil">
                 </div>
+
+                
             </div>
         </div>
+        <div class="notification">
+            <input type="button"><span class="material-symbols-sharp">notifications</span>
+        </div>
+        <span class="alert"></span>
     </header>
+
+    

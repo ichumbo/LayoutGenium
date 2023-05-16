@@ -10,6 +10,12 @@
                 <aside>
                     <ul id="main-menu">
                         <li>
+                        <div class="logo">
+                            <img src="<?php echo getenv('SITE_URL'); ?>img/Icon_Blue.png" alt="Sistema Genium">
+                            <h2 class="name-icon"><span class="color-1"></span></h2>
+                        </div>
+                        </li>
+                        <li>
                             <a href="<?php echo getenv('SITE_URL'); ?>">
                             <span class="material-symbols-sharp move">home_app_logo</span>
                             <h3>Inicío</h3>

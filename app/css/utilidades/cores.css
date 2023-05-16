@@ -4,12 +4,13 @@
     --color-secundary: #3AADED;
     --color-released: #38E54D;
     --color-refused: #DC3535;
+    --color-alert: #FF6000;
     --color-white: #ffffff;
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
     --color-dark: #363949;
     --color-light: rgba(37, 197, 250, 0.18);
-    --color-light-2: rgba(132, 139, 200, 0.18);
+    --color-light-2: #D9D5EC;
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
     --color-background: #f6f6f9;
@@ -24,7 +25,7 @@
     --card-padding: 1.8rem;
     --padding-1: 1.2rem;
 
-    --box-shadow: 0 2rem 1.5rem var(--color-light-2);
+    --box-shadow: 0 .3rem 1.5rem var(--color-light-2);
 }
 
 .color-1 {

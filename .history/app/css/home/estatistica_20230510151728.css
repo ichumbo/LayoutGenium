@@ -10,8 +10,6 @@
 .right .statistics .item {
     background: var(--color-white);
     display: flex;
-    width: 208px;
-    height: 450px;
     align-items: center;
     gap: 1rem;
     margin-bottom: 0.7rem;

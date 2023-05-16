@@ -1,0 +1,52 @@
+
+.d-flex {
+    display: flex;
+}
+
+.d-row {
+    flex-direction: row;
+}
+
+.d-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.form-col {
+    width: 42%;
+}
