@@ -24,10 +24,6 @@
                 <h2 class="name-icon"><span class="color-1">ENIUM</span></h2>
             </div>
 
-            <div class="">
-                <input type="select">
-            </div>
-
             <button id="menu-btn">
                 <span class="material-symbols-sharp">menu</span>
             </button>
