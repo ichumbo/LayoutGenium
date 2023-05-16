@@ -1,0 +1,49 @@
+.profile-photo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+header select {
+    margin-left: 10px;
+    background: var(--color-white);
+    padding: 0.3rem 1rem;
+    border: 2px solid var(--color-primary);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-primary);
+    width: 220px;
+    border-radius: 4px;
+}
+
+header .notification {
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+    color: var(--color-primary);
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin: 5px -17px;
+    padding: 13px;
+    position: relative;
+    left: 1485px;
+    cursor: pointer;
+}
+
+header .alert{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    left: 1506px;
+    bottom: 56px;
+    background: var(--color-alert);
+}
+
+header .filter {
+    position: relative;
+    right: 200px;
+}

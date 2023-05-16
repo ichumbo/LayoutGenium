@@ -1,0 +1,159 @@
+a {
+    color: var(--color-dark);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+aside {
+    height: 100vh;
+}
+
+aside.navbar {
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    overflow-x: auto;
+    height: calc(100vh - 6rem);
+}
+
+aside .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside .logo {
+    display: flex;
+    gap: 0.2rem;
+}
+
+aside .logo img {
+    width: 3rem;
+}
+
+aside .close {
+    display: none;
+}
+
+/*============================================================SIDEBAR======================================================================*/
+
+.temSubMenu ~ ul.sub-menu {
+    display: none;
+}
+
+.temSubMenu.open ~ ul.sub-menu {
+    display: block;
+}
+
+.temSubMenu.open .material-symbols-sharp.expand {
+    transform: rotate(90deg);
+}
+
+.temSubMenu.open .material-symbols-sharp.sub-icon-1 {
+    transform: rotate(90deg);
+}
+
+nav ul li .sub-menu a{
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+
+
+header .sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+}
+
+aside h3 {
+    font-weight: 500;
+}
+
+aside .sidebar aside a {
+    display: flex;
+    color: var(--color-info-dark);
+    margin-left: 2rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.1rem;
+    max-width: 15rem;
+    transition: all 300ms ease;
+}
+
+aside .sidebar aside a .sub-icon{
+    font-size: 1rem;
+    margin-left: 1.1-rem;
+    max-width: 0.4rem;
+}
+
+aside .sidebar aside a .sub-icon-1{
+    font-size: 1rem;
+}
+
+
+aside .sidebar a span {
+    font-size: 1.6rem;
+    transition: all 300ms ease;
+}
+
+aside .sidebar a.active {
+    background: var(--color-light);
+    color: var(--color-primary);
+    margin-left: 0;
+    border-radius: 0.7rem;
+    padding: 0px 10px 0px 0px;
+}
+
+aside .sidebar a.active::before {
+    content: '';
+    width: 6px;
+    height: 100%;
+    background: var(--color-primary);
+}
+
+aside .sidebar a.sub-item.active {
+    background: var(--color-light);
+    color: var(--color-primary);
+    margin-left: 0;
+    border-radius: 0.7rem;
+}
+
+aside .sidebar a.sub-item.active::before {
+    content: '';
+    width: 6px;
+    height: 100%;
+    background: var(--color-primary);
+}
+
+aside .sidebar a.active span {
+    color: var(--color-primary);
+    margin-left: calc(1rem - 3px);
+}
+
+aside .sidebar a:hover {
+    color: var(--color-primary);
+} 
+
+aside .sidebar a:hover span.move {
+    margin-left: 1rem;
+}
+
+aside .sidebar a span.margin-l {
+    margin-left: 1.1rem;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* ::-webkit-scrollbar-thumb {
+    background-color: var(--color-light);    
+    border-radius: 20px;
+}
+*/
